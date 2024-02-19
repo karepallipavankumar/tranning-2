@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>application</title>
+    </head>
+    <body>
+        <form>
+        <h1>Application Form</h1>
+        <fieldset>
+        <legend>Personal Details</legend>
+        <label for=" ">FirstName:</label>
+        <input type="text">
+        <label for=" ">Lastname</label>
+        <input type="text"><br><br>
+        <label for=" ">Date Of Birth:</label>
+        <input type="datetime-local">
+        <label for=" ">Age:</label>
+        <input type="number"><br><br>
+        <label for=" ">Gender:</label>
+        <select> 
+            <option>Male</option>
+            <option>Female</option>
+            <option>others</option>
+        </select>
+        <label for="">Emailaddress:</label>
+        <input type="email" placeholder="Enter email address"><br><br>
+        <label for="">positionavailable:</label>
+        <input type="radio" name="abc">JuniorDeveloper
+        <input type="radio" name="abc">MidlevelDeveloper
+        <input type="radio" name="abc">SeniorDeveloper<br><br>
+        <label for="">Programming Language:</label>
+        <input type="checkbox">Java
+        <input type="checkbox">javascript
+        <input type="checkbox">python
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password">
+        <label for="">Conform Password:</label>
+        <input type="password"><br>
+        <label for="">Department:</label>
+        <select>
+            <optgroup label="Bachelors">
+            <option value="">cse</option>
+            <option value="">Ece</option>
+            <option value="">EEE</option>
+            </optgroup>
+            <optgroup label="Masters">
+                <option value="">Cse</option>
+                <option value="">ECe</option>
+                <option value="">EEE</option>
+                </optgroup>
+        </select>
+        <input list="placement">
+        <datalist id="placement">
+            <option value="CSE"></option>
+            <option value="ECE"></option>
+            <option value="EEE"></option>
+        </datalist>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+        </form>
+    </body>
+</html>
